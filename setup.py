@@ -14,7 +14,7 @@ setuptools.setup(
 Python module containing system_verilog files for CV32E40P cpu.""",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/litex-hub/pythondata-cpu-cv32e40p",
+    url="https://github.com/nuntipat/pythondata-cpu-cv32e40p",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
@@ -28,7 +28,7 @@ Python module containing system_verilog files for CV32E40P cpu.""",
     },
     include_package_data=True,
     project_urls={
-        "Bug Tracker": "https://github.com/litex-hub/pythondata-cpu-cv32e40p/issues",
-        "Source Code": "https://github.com/litex-hub/pythondata-cpu-cv32e40p",
+        "Bug Tracker": "https://github.com/nuntipat/pythondata-cpu-cv32e40p/issues",
+        "Source Code": "https://github.com/nuntipat/pythondata-cpu-cv32e40p",
     },
 )

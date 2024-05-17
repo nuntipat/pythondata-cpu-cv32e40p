@@ -1,0 +1,3 @@
+[submodule "pythondata_cpu_cv32e40p/system_verilog"]
+	path = pythondata_cpu_cv32e40p/system_verilog
+	url = https://github.com/nuntipat/cv32e40p.git

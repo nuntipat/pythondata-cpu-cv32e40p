@@ -1,7 +1,7 @@
 import os.path
 __dir__ = os.path.split(os.path.abspath(os.path.realpath(__file__)))[0]
 data_location = os.path.join(__dir__, "system_verilog")
-src = "https://github.com/antmicro/cv32e40p"
+src = "https://github.com/openhwgroup/cv32e40p.git"
 
 # Module version
 version_str = "0.0.post152"
@@ -20,14 +20,16 @@ try:
     pdata_version = V("0.0.post10")
 except ImportError:
     pass
-data_git_hash = "087cb61a182f6bc4f757d3430865482aaff61cba"
-data_git_describe = "v0.0-10-g087cb61"
+data_git_hash = "6adc6b3d71d93dfbb5006cd3fa095331df38e8fd"
+data_git_describe = "v1.0.0_doc-564-g6adc6b3"
 data_git_msg = """\
-commit 087cb61a182f6bc4f757d3430865482aaff61cba
-Author: Piotr Binkowski <pbinkowski@antmicro.com>
-Date:   Wed May 20 14:40:57 2020 +0200
+commit 6adc6b3d71d93dfbb5006cd3fa095331df38e8fd
+Author: Davide Schiavone <davide@openhwgroup.org>
+Date:   Wed Feb 14 14:07:20 2024 +0100
 
-    disable sim tracer
+    Merge pull request #918 from openhwgroup/dev
+    
+    Automatic PR dev->master
 
 """
 
